@@ -59,6 +59,7 @@ Final step is to clone the correct verison of the code. At the moment the workin
 1.1 importing datacards
 =========================================
 Currently Yuji has added datacard for pT4l, and ones can copy from the path: ::
+
   cp -r /afs/cern.ch/user/y/yujil/public/datacardInputs .
 
 2. Running the measurement
@@ -97,7 +98,9 @@ Commands to run: ::
   python RunEverything.py -r 1 -s 6 # step-6: Run background template maker
   python RunEverything.py -r 1 -s 7 # step-7: Final measurement and plotter
   
-Note that if the datacard directory is downloaded, you can start from step-6 to create template; ::
+Note that if the datacard directory is downloaded, you can start from step-6 to create template: ::
+
+
   python RunEverything.py -r 1 -s 6 -i "Inputs/observables_yuji.yml"
   python RunEverything.py -r 1 -s 7 -i "Inputs/observables_yuji.yml"
 
