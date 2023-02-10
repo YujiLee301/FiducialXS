@@ -58,7 +58,7 @@ Final step is to clone the correct verison of the code. At the moment the workin
 
 1.1 importing datacards
 =========================================
-Currently Yuji has added datacard for pT4l, and ones can copy from the path: ::
+Currently Yuji has added datacard for pT4l, and one can copy from the path: ::
 
   cp -r /afs/cern.ch/user/y/yujil/public/datacardInputs .
 
