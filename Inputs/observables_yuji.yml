@@ -1,0 +1,15 @@
+meta: >
+  This YAML file contains list of observables for which we should run the current framework.
+  Here, the section and sub-section name (i.e. "Observables" and "1D_Observables") is hardcoded
+  in the python file "RunEverything.py". So, one should not change these two names.
+Observables:
+
+  1D_Observables:
+
+    pT4l:
+     bins: "|0|10|20|30|45|60|80|120|200|13000|"
+     label: "p_{T}(H)"
+     unit: "GeV"
+     gen: "GENpT4l"
+     ifAbs: False
+     ifJES: False

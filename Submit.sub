@@ -1,0 +1,6 @@
+executable  = script_submit.sh
+universe    = vanilla
+output      = output.out
+error       = error.err
+log         = log.log
+queue

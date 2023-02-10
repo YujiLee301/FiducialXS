@@ -1,0 +1,41 @@
+# ignore root file; if we need to add root file then we can use -f option to add
+*.tex
+2016/
+2017/
+2018/
+*.root
+*.stdout
+*.jdl
+*.txt
+
+# ignore plots
+*.png
+*.pdf
+
+# ignore docs build folder
+
+docs/_build/
+
+# ignore temp files or executable files
+*.pyc
+*.log
+log*.txt
+combine*.out
+main_fiducialXSTemplates
+
+# ignore python files inside datacardInputs directory, created by scripts
+inputs_sig_*.py
+moreinputs_sig_*.py
+accUnc_*.py
+inputs_bkg_*.py
+resultsXS*.py
+
+# ignore directory created by script
+#datacardInputs/
+templatesXS/
+xs_*/
+plots/
+table/
+Inputs/.__afsB8D6
+CMSSW_10_2_13.tgz
+CommandsRun.txt

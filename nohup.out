@@ -1,0 +1,217 @@
+
+[95m[WARNING] - [Utils.py:#130] - [GetDirectory; Utils][0m - [93mDirecoty created/exist - datacardInputs/2018 [0m
+
+
+[95m[WARNING] - [Utils.py:#130] - [GetDirectory; Utils][0m - [93mDirecoty created/exist - xs_125.0_2018 [0m
+
+
+[95m[ INFO] - [runHZZFiducialXS.py:#1324] - [runFiducialXS; runHZZFiducialXS][0m - [92mRunning fiducial XS computation for - mass4l - bin boundaries: |105.0|140.0| [0m
+
+1D measurement selected, reading the observable bins...
+[INFO] obs_bins is  : ['105.0', '140.0']
+
+[95m[ INFO] - [runHZZFiducialXS.py:#1328] - [runFiducialXS; runHZZFiducialXS][0m - [92mParsed bins: ['105.0', '140.0'] [0m
+
+
+[95m[DEBUG] - [runHZZFiducialXS.py:#1329] - [runFiducialXS; runHZZFiducialXS][0m - [94mBin size = 2 [0m
+
+
+[95m[DEBUG] - [runHZZFiducialXS.py:#1333] - [runFiducialXS; runHZZFiducialXS][0m - [94mnBins: = 1 [0m
+
+
+[95m[DEBUG] - [runHZZFiducialXS.py:#1371] - [runFiducialXS; runHZZFiducialXS][0m - [94mobs_ifJES: False, obs2_ifJES2:  [0m
+
+
+[95m[DEBUG] - [runHZZFiducialXS.py:#1374] - [runFiducialXS; runHZZFiducialXS][0m - [94mOptions:
+	runAllSteps: True
+	opt.templatesOnly False
+	opt.resultsOnly
+ [0m
+
+
+[95m[DEBUG] - [runHZZFiducialXS.py:#1385] - [runFiducialXS; runHZZFiducialXS][0m - [94m(runAllSteps or opt.templatesOnly) and year.isdigit() = True [0m
+
+
+[95m[DEBUG] - [runHZZFiducialXS.py:#1392] - [runFiducialXS; runHZZFiducialXS][0m - [94mresultsXS: {} [0m
+
+
+[95m[ INFO] - [runHZZFiducialXS.py:#1406] - [runFiducialXS; runHZZFiducialXS][0m - [92mRun addConstrainedModel [0m
+
+
+[95m[ INFO] - [Utils.py:#108] - [processCmd; Utils][0m - [92m=================================================== [0m
+
+
+[95m[ INFO] - [Utils.py:#109] - [processCmd; Utils][0m - [92m[INFO]: Current working directory: /afs/cern.ch/user/y/yujil/FiducialXS/CMSSW_10_2_13/src/Fiducial_XS [0m
+
+
+[95m[ INFO] - [Utils.py:#110] - [processCmd; Utils][0m - [92m[INFO]: runHZZFiducialXS.py#1408 command:
+	python python/addConstrainedModel.py -l -q -b --obsName="mass4l" --obsBins="|105.0|140.0|" --year="2018" [0m
+
+Output:
+   [
+
+[95m[ INFO] - [addConstrainedModel.py:#95] - [<module>; addConstrainedModel][0m - [92mbins: ['105.0', '140.0'] [0m
+
+
+[95m[ INFO] - [addConstrainedModel.py:#98] - [<module>; addConstrainedModel][0m - [92mBin size = 1 [0m
+
+
+[95m[ INFO] - [addConstrainedModel.py:#95] - [<module>; addConstrainedModel][0m - [92mbins: ['105.0', '140.0'] [0m
+
+
+[95m[ INFO] - [addConstrainedModel.py:#98] - [<module>; addConstrainedModel][0m - [92mBin size = 1 [0m
+
+
+[95m[ INFO] - [addConstrainedModel.py:#95] - [<module>; addConstrainedModel][0m - [92mbins: ['105.0', '140.0'] [0m
+
+
+[95m[ INFO] - [addConstrainedModel.py:#98] - [<module>; addConstrainedModel][0m - [92mBin size = 1 [0m
+
+
+[95m[ INFO] - [addConstrainedModel.py:#95] - [<module>; addConstrainedModel][0m - [92mbins: ['105.0', '140.0'] [0m
+
+
+[95m[ INFO] - [addConstrainedModel.py:#98] - [<module>; addConstrainedModel][0m - [92mBin size = 1 [0m
+
+inputs_sig_mass4l
+1D measurement selected, reading the observable bins...
+[INFO] obs_bins is  : ['105.0', '140.0']
+2e2mu mass4l recobin 0 jesSM -1.11022302463e-16 jesSMup 0.0 jesSMdn -1.11022302463e-16
+1D measurement selected, reading the observable bins...
+[INFO] obs_bins is  : ['105.0', '140.0']
+4mu mass4l recobin 0 jesSM 0.0 jesSMup 0.0 jesSMdn 2.22044604925e-16
+1D measurement selected, reading the observable bins...
+[INFO] obs_bins is  : ['105.0', '140.0']
+4e mass4l recobin 0 jesSM 0.0 jesSMup 0.0 jesSMdn 0.0
+1D measurement selected, reading the observable bins...
+[INFO] obs_bins is  : ['105.0', '140.0']
+4l mass4l recobin 0 jesSM 0.0 jesSMup 0.0 jesSMdn 0.0
+] 
+
+
+[95m[ INFO] - [Utils.py:#121] - [processCmd; Utils][0m - [92m=================================================== [0m
+
+
+[95m[DEBUG] - [runHZZFiducialXS.py:#1413] - [runFiducialXS; runHZZFiducialXS][0m - [94m
+            obsName = mass4l,
+            observableBins = ['105.0', '140.0']
+            asimovDataModelName = SM_125
+            asimovPhysicalModel = v2 [0m
+
+
+[95m[ INFO] - [runHZZFiducialXS.py:#1414] - [runFiducialXS; runHZZFiducialXS][0m - [92mGoing to produce datacards... [0m
+
+
+[95m[ INFO] - [runHZZFiducialXS.py:#485] - [produceDatacards; runHZZFiducialXS][0m - [92mProducing workspace/datacards for obsName - mass4l, bins - ['105.0', '140.0']] [0m
+
+
+[95m[DEBUG] - [runHZZFiducialXS.py:#486] - [produceDatacards; runHZZFiducialXS][0m - [94mobsName: mass4l [0m
+
+
+[95m[DEBUG] - [runHZZFiducialXS.py:#487] - [produceDatacards; runHZZFiducialXS][0m - [94mobservableBins: ['105.0', '140.0'] [0m
+
+
+[95m[DEBUG] - [runHZZFiducialXS.py:#490] - [produceDatacards; runHZZFiducialXS][0m - [94mListObsName: ['mass4l'] [0m
+
+
+[95m[DEBUG] - [runHZZFiducialXS.py:#495] - [produceDatacards; runHZZFiducialXS][0m - [94mlen(observableBins): = 2 [0m
+
+
+[95m[ INFO] - [runHZZFiducialXS.py:#510] - [produceDatacards; runHZZFiducialXS][0m - [92mVM Creating datacards for:
+        	obsName: ['mass4l']
+        	fState: 2e2mu
+        	nBins: 1
+        	observableBins: ['105.0', '140.0']
+        	modelName: SM_125
+        	physicalModel: v2 [0m
+
+
+[95m[DEBUG] - [runHZZFiducialXS.py:#555] - [produceDatacards; runHZZFiducialXS][0m - [94mRunning the datacard_maker.py... [0m
+
+
+[95m[ INFO] - [Utils.py:#108] - [processCmd; Utils][0m - [92m=================================================== [0m
+
+
+[95m[ INFO] - [Utils.py:#109] - [processCmd; Utils][0m - [92m[INFO]: Current working directory: /afs/cern.ch/user/y/yujil/FiducialXS/CMSSW_10_2_13/src/Fiducial_XS [0m
+
+
+[95m[ INFO] - [Utils.py:#110] - [processCmd; Utils][0m - [92m[INFO]: runHZZFiducialXS.py#557 command:
+	python python/datacard_maker.py -c 2e2mu -b 1 -y 2018 [0m
+
+Output:
+   [
+['trueH2e2muBin', 'out_trueH', 'fakeH', 'bkg_qqzz', 'bkg_ggzz', 'bkg_zjets']
+['trueHBin', 'out_trueH', 'fakeH', 'bkg_qqzz', 'bkg_ggzz', 'bkg_zjets']
+] 
+
+
+[95m[ INFO] - [Utils.py:#121] - [processCmd; Utils][0m - [92m=================================================== [0m
+
+
+[95m[DEBUG] - [runHZZFiducialXS.py:#558] - [produceDatacards; runHZZFiducialXS][0m - [94mCompleted the datacard_maker.py... [0m
+
+TEST
+['mass4l']
+
+[95m[ INFO] - [createXSworkspace.py:#62] - [createXSworkspace; createXSworkspace][0m - [92mInput arguments to createXSworkspace module:
+        obsName: ['mass4l']
+        obsType: <type 'list'>
+        channel: 2e2mu
+        nBins: 1
+        obsBin: 0
+        observableBins: ['105.0', '140.0']
+        usecfactor: False
+        addfakeH: True
+        modelName: SM_125
+        physicalModel: v2 [0m
+
+
+[95m[ INFO] - [createXSworkspace.py:#108] - [createXSworkspace; createXSworkspace][0m - [92mThis is recognised as 1D observable... [0m
+
+obsBin_low:   105.0
+
+[95m[DEBUG] - [createXSworkspace.py:#126] - [createXSworkspace; createXSworkspace][0m - [94m
+                (obsBin_low,  obsBin_high ) = (105.0,140.0);
+                (obs_bin_lowest,  obs_bin_highest ) = (105.0, 140.0) [0m
+
+
+[95m[ INFO] - [createXSworkspace.py:#131] - [createXSworkspace; createXSworkspace][0m - [92mSuffixOfRootFile: mass4l_105_140 [0m
+
+VM test
+inputs_sig_mass4l
+datacardInputs/{year}
+
+[95m[DEBUG] - [createXSworkspace.py:#163] - [createXSworkspace; createXSworkspace][0m - [94mModule to import: inputs_sig_mass4l [0m
+
+<module 'inputs_sig_mass4l' from './datacardInputs/2018/inputs_sig_mass4l.py'>
+
+[95m[DEBUG] - [createXSworkspace.py:#177] - [createXSworkspace; createXSworkspace][0m - [94mModule to import: inputs_bkg_mass4l [0m
+
+
+[95m[ INFO] - [createXSworkspace.py:#188] - [createXSworkspace; createXSworkspace][0m - [92mm.numBins(): 100 [0m
+
+
+[95m[DEBUG] - [createXSworkspace.py:#500] - [createXSworkspace; createXSworkspace][0m - [94mobs_ifJES = False [0m
+
+
+[95m[DEBUG] - [createXSworkspace.py:#517] - [createXSworkspace; createXSworkspace][0m - [94mobs_ifJES: False,  doJES: 0, condition: True [0m
+
+
+[95m[ INFO] - [createXSworkspace.py:#518] - [createXSworkspace; createXSworkspace][0m - [92mfideff[genbin]: 0.607361862851 [0m
+
+
+[95m[ INFO] - [createXSworkspace.py:#519] - [createXSworkspace; createXSworkspace][0m - [92mmodel name is   SM_125 [0m
+
+
+[95m[ INFO] - [createXSworkspace.py:#597] - [createXSworkspace; createXSworkspace][0m - [92moutin: obsBin:   0	 outin: 0.0575114419881 [0m
+
+Traceback (most recent call last):
+  File "runHZZFiducialXS.py", line 1648, in <module>
+    runFiducialXS()
+  File "runHZZFiducialXS.py", line 1417, in runFiducialXS
+    produceDatacards(obsName, observableBins, asimovDataModelName, asimovPhysicalModel, obs_ifJES, obs_ifJES2, obs_ifAbs, obs_ifAbs2, year)
+  File "runHZZFiducialXS.py", line 562, in produceDatacards
+    ndata = createXSworkspace(ListObsName,fState, nBins, 0, observableBins, False, True, modelName, physicalModel, year, obs_ifJES, obs_ifJES2, obs_ifAbs, obs_ifAbs2)
+  File "/afs/cern.ch/user/y/yujil/FiducialXS/CMSSW_10_2_13/src/Fiducial_XS/python/createXSworkspace.py", line 637, in createXSworkspace
+    frac_qqzz = fractionsBackground[bkg_sample_tags['qqzz'][channel]+'_'+channel+'_'+obsNameDictKey+'_'+recobin]
+KeyError: 'qqzz_2e2mu_mass4l_recobin0'
